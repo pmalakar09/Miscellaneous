@@ -1,0 +1,84 @@
+[root@prism-support PRASENJIT]# ll
+total 456
+drwxr-xr-x 2 root root   4096 Jul 17 12:18 BILLING
+-rwxrwxrwx 1 root root 433576 Jun  6 17:21 perl-Log-Log4perl-1.42-2.sdl7.noarch.rpm
+-rwxrwxrwx 1 root root    271 Jul 17 12:14 perl.pl
+-rwxrwxrwx 1 root root    177 Jun  6 17:45 perl.pl_old
+-rwxrwxrwx 1 root root      0 Jun  6 17:43 results_error.log
+-rwxrwxrwx 1 root root     21 Jun  6 17:43 results.log
+-rwxrwxrwx 1 root root    667 Jul 11 13:50 test.pl
+-rwxrwxrwx 1 root root     66 Jun 12 12:07 test.sh
+-rwxrwxrwx 1 root root     59 Jun 28 12:40 txt.txt
+[root@prism-support PRASENJIT]# vim perl.pl
+[root@prism-support PRASENJIT]# 
+Connection closed by foreign host.
+
+Type `help' to learn how to use Xshell prompt.
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
+LINE 1
+LINE 2
+LINE 3
+1
