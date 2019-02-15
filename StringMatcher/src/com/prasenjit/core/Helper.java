@@ -12,7 +12,7 @@ public class Helper {
 		string1 = sc.nextLine();
 		System.out.println("Please Enter 2nd String: ");
 		string2 = sc.nextLine();
-		System.out.println("UniCode: " + string1.codePointAt(0));
+		System.out.println("UniCode: " + string1.codePointAt(0)); //Returns UniCode of an Character
 		sc.close();
 	}
 
