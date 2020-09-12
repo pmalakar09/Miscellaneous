@@ -34,8 +34,8 @@ public class XPathTool {
 			 File file = new File("Input.properties");
 			 fileInput = new FileInputStream(file);
 			 Properties properties = new Properties();
-			 log.info("Input.properties is loading......");
-			 System.out.println("Input.properties is loading......");
+			 log.info("Input.properties is getting loaded......");
+			 System.out.println("Input.properties is getting loaded......");
 			 properties.load(fileInput);
 			 log.info("Input.properties loaded succesfully");
 			 System.out.println("Input.properties loaded succesfully");
