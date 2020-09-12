@@ -17,7 +17,7 @@ import org.w3c.dom.Document;
 
 
 public class XPathTool {
-	//static Logger log = Logger.getLogger(XPathTool.class);
+	static Logger log = Logger.getLogger(XPathTool.class);
 	public static void main(String[] args) {		
 		System.out.println("Execution Start");
 		
@@ -34,10 +34,10 @@ public class XPathTool {
 			 File file = new File("Input.properties");
 			 fileInput = new FileInputStream(file);
 			 Properties properties = new Properties();
-			 //log.info("Input.properties is loading......");
+			 log.info("Input.properties is loading......");
 			 System.out.println("Input.properties is loading......");
 			 properties.load(fileInput);
-			 //log.info("Input.properties loaded succesfully");
+			 log.info("Input.properties loaded succesfully");
 			 System.out.println("Input.properties loaded succesfully");
 			 
 			 xPath=properties.getProperty("XPATH");
