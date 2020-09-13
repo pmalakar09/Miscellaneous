@@ -15,7 +15,7 @@ class StringExample{
 			System.out.println("Your Entered Word Is--> '"+str+"'");
 			System.out.println("Now We Are Calculating In This Word ");
 			System.out.println("If Any Character Repeatation Found Or Not");
-			System.out.println("Please Wait.........");
+			System.out.println("Please Wait........");
 			
 			
 		}catch(Exception e){}
