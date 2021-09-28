@@ -15,7 +15,7 @@ public class Demo {
 		objAL.add(12);
 		objAL.add(15);
 		objAL.add(2);
-		objAL.add(1500);
+		objAL.add(15000);
 		System.out.println(objAL);
 		System.out.println(objAL.get(2));
 		Collections.sort(objAL);
