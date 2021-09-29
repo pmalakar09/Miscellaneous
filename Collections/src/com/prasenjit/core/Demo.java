@@ -25,6 +25,10 @@ public class Demo {
 		System.out.println(objAL);
 		
 		ArrayList<String> objAL2 = new ArrayList<String>(Arrays.asList("A","B","C"));
+		ArrayList<Integer> objAL4 = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+		objAL4.forEach((n)->System.out.println(n)); //Lambda Expression
+		objAL4.removeIf(num->num%2==0); //Lambda Expression
+		System.out.println("Lamda: "+objAL4);
 		ArrayList<String> objAL3 = new ArrayList<String>(Arrays.asList("A","B","D"));
 		objAL2.removeAll(objAL3);
 		System.out.println(objAL2);
