@@ -1,6 +1,7 @@
 package com.prasenjit.core;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -22,6 +23,11 @@ public class Demo {
 		System.out.println(objAL);
 		Collections.sort(objAL, Collections.reverseOrder());
 		System.out.println(objAL);
+		
+		ArrayList<String> objAL2 = new ArrayList<String>(Arrays.asList("A","B","C"));
+		ArrayList<String> objAL3 = new ArrayList<String>(Arrays.asList("A","B","D"));
+		objAL2.removeAll(objAL3);
+		System.out.println(objAL2);
 		
 		HashSet<Integer> objHS= new HashSet<Integer>();
 		objHS.add(5);
