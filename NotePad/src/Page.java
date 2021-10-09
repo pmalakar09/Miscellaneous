@@ -10,6 +10,9 @@ public class Page {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter The No. of Digit: ");
 		j = sc.nextInt();
+		double d= sc.nextDouble()
+				String s=sc.nextLine();
+		s.length()
 		int[] i = new int[j];
 		for (int k = 0; k < j; k++) {
 			i[k] = sc.nextInt();
